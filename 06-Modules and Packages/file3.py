@@ -1,4 +1,4 @@
 import sys
 import file1
-num = int(sys.argv[1])
+num = len(sys.argv[0])
 print(file1.myfunc(num))
